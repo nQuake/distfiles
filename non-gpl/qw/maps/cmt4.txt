@@ -1,0 +1,75 @@
+Released: 04th Jan 98 - Modified by Slayer on 18th May 2002
+==================================================================================
+Title                   : Andromeda Nine (cmt version) by Slayer
+
+Filename                : cmt4.bsp
+                        : Official map for the Custom Map Tournament www.nqr.nu
+
+Author                  : Michael Oates Slayer
+Email Address           : mike@ph.u-net.com
+Home page               : http://www.ph.u-net.com
+Description             : Medium size Deathmatch level 
+                        
+Additional Credits to   : Ben Morris creator of WorldCraft
+                        : Rorshach (The King of Skins, and author of ukcldm4) 
+                          for some of the textures used and also for asking me
+                          to make the map. He has worked closely with me on this
+                          project and I would like to thank him very much.
+                          http://www.planetquake.com/rorshach/
+                        : Thanks also to Zaka from Finland, maker of Silverdomefor 
+                          the cmt logo
+ 
+==================================================================================
+* Play Information *
+
+Game                    : Quake 1 Registered 
+Single Player           : no
+Co-op                   : no
+Deathmatch              : Yes, 10 Deathmatch Starts
+                          8 - 16 players ideal
+Difficulty Settings     : no
+
+==================================================================================
+* Construction *
+
+Base                    : Andromeda Nine
+Editor used             : WorldCraft 1.6
+Construction time       : 6 weeks approx
+Known bugs              : none
+
+==================================================================================
+* Other *
+
+This is a modification to the standard Andromeda Nine, in that a few
+of the weapons and ammo have changed. The red armor in the garden is
+now yellow. Requested by Lars Erik Hempkins aka Link. Have fun!
+
+Note: This map is vised for transparent water.
+
+There is a Pentagram of protection on this map, but it's very difficult 
+to get it your self, Huh ! I here you say. Well there is a button 
+than needs pressing to open a door, only it's too far away to get 
+to the pent before the door closes again. So you need to have a team 
+mate open it for you, adds a new meaning to team play! (You can see 
+if your team mate is in position before pressing the button)
+
+==================================================================================
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels. And it must not be sold, without permission from the author.
+
+You MAY distribute this BSP, provided you include this file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact.
+
+==================================================================================
+* Where to get this BSP *
+
+http://www.ph.u-net.com/quake.htm
+
+Other maps by Slayer...
+
+   TitanII, UKCLDM2, UKCL4X1 and UKOOLDM5 available from...
+   http://www.ph.u-net.com/quake.htm

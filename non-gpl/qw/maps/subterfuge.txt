@@ -1,0 +1,116 @@
+Subterfuge - A QuakeWorld 1v1 Map - 7/9/2012
+================================================================
+Title                   : Subterfuge
+Filename                : subterfuge.txt (this readme file)
+                          subterfuge.bsp (the level itself)
+Author                  : foogs    (aka fenris)
+Email Address           : fenris.foogs@gmail.com
+Web Page		: quakeworld.nu
+Description             : Tournament 1v1 QuakeWorld map
+================================================================
+
+* Play Information *
+
+Single Player           : no
+Cooperative             : no
+Deathmatch              : 6 spawns
+Difficulty Settings     : no
+New Sounds              : no
+New Graphics            : yes
+New Music               : no
+Demos Supplied          : no
+
+* Construction *
+
+Base                    : new level from scratch
+Editor(s) used          : NetRadiant 1.5.0n-git-3316aca Dec 20 2010 ->http://icculus.org/netradiant/files/
+Known Bugs              : none
+Build Time              : probably have more than 22 hours into this map.
+Texture Wad used        : subterfuge.wad
+
+Compile machine         : amd phenom II X3 720 @ 2.80 GHz, 4.00 GB Ram
+			  windows 7
+Qbsp.exe                : TreeQBSP (Version 2.05 Apr 2007) by Bengt Jardup (http://user.tninet.se/~xir870k/treeqbspbjp.zip)
+Light.exe               : Bengt Light Coloured (Release 2) by MH (http://www.quaddicted.com/files/tools/BengtLightColouredR2.zip)              
+Wvis.exe                : Multithreaded VIS For Windows (http://wantonhubris.com/blog/tag/quake/)(http://www.quaketastic.com/upload/files/tools/windows/misc/WVis.zip)
+
+
+
+Summary of the level
+====================
+This originally was supposed to be a tournament style map for both 2v2
+and 1v1 but it ended up being a 1v1 map only. I made this map in the
+hope that it could join the ranks of aero/dm4/dm6 as a standard duel
+map for quakeworld. Who knows though, people 2v2 on dm4 so they could
+probably have a better time 2v2ing on this than dm4.
+
+The graphical theme is a base outpost type thing set in space.
+
+The map contains 2 RL, 1 GL, 1 LG, and 1 SSG. It contains 4 big rocket
+ammo packs and 3 big lg cell packs. It contains a RA, a YA, a GA and a MH.
+
+This is my first "fully completed release" and will probably be my last
+for quakeworld as I am about 10 years late anyway plus no one plays this
+game anymore.
+
+The layout is heavily inspired by aerowalk if not an aerowalk remix. There are
+the same amount of teleporters as aerowalk but the map is a little more compact.
+I would say a fair assessment of size would be to say that this map is in between
+dm4 and aerowalks size.
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Unzip the archive to '<your_quake_dir>' directory. You're done.
+
+               The following files will be installed:
+
+               * '<your_quake_dir>/id1/maps/subterfuge.map' (the map source file, optional)
+               * '<your_quake_dir>/id1/maps/subterfuge.bsp' (the compiled mapfile)
+               * '<your_quake_dir>/id1/subterfuge.txt' (this readme, optional)
+               * '<your_quake_dir>/id1/maps/subterfuge.lit' (colored lighting info)
+               * '<your_quake_dir>/id1/maps/subterfuge.wad' (the custom .wad i used, this is for editing/loading the map in radiant)
+               * '<your_quake_dir>/qw/textures/subterfuge/' (24bit textures, you need these or else this map looks like ass)
+               * '<your_quake_dir>/qw/locs/subterfuge.loc'  (loc file, locations used for teamplay messages)			
+
+
+PLAY:
+
+
+               * You can load the map using the Quake / QW in-game console: 'map subterfuge'
+
+               Hint: If you don't have a quakeworld client, get nQuake: http://nquake.sourceforge.net/
+
+               * You can also start it from the command line of your OS:
+
+
+                   'ezquake-gl +map subterfuge'
+
+
+Additonal Credits
+==================
+
+- Whoever made the quake3 remake of monsoon is responsible for all of the textures except the sky texture.
+- The sky texture was made by foogs
+- Shout out to sane / lithium / sqn-n1bbler / cyan / myth / mael / r4 / aoki. Without you guys I would have never gotten any good at this game
+  and this map probably wouldn't have ever gotten made.
+- Shout out to the current NA QuakeWorld scene.
+- I jacked the formatting and some content for this readme from Spirit/Aardappel
+- Shout out to the #cpm22/#avilo crew. You're all ballers except mafdawg.
+- BJ for the compilers I used
+  http://user.tninet.se/~xir870k/
+- STEEK for letting me use his server for uploading and testing. This helped immensely.
+
+- Special thanks to JAMAL of #cpm22/#avilo fame. Without you my maps would have been completely terrible. JAMAL may
+  have actually put in half the time just helping test/critque than it took to actually build this map. 
+
+Copyright / Permissions
+========================
+
+This level is (c) by foogs (2012). The source files of this map (the .map-files made by me, NOT THE TEXTURES AND ASSETS!) are published under
+the GPL license and may be freely distributed. See http://www.gnu.org/copyleft/gpl.html for the full GNU General Public License.
+
+Hit me up if you remake this map or use ideas from it, would love to hear about it.
+

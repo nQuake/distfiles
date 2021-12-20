@@ -1,0 +1,11 @@
+#!/bin/sh
+
+DIRNAME="$(cd "$(dirname "$0")"; pwd -P)"
+
+if [ ! -f "$DIRNAME"/../Resources/id1/pak0.pak ]; then
+    osascript -e "tell app \"Finder\" to open (\"${DIRNAME%/*}/Resources/id1/\" as POSIX file)"
+    osascript -e "tell app \"Finder\" to activate"
+    exit
+fi
+
+exec "$DIRNAME"/ezquake-darwin-x86_64 -basedir "$DIRNAME"/../Resources

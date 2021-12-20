@@ -1,0 +1,5 @@
+Map compiled from GPL sources with Baker5's simple.wad, with integrated colored lighting (BSPX extension)
+
+The checksum is the same as in the vanilla map from pak1.pak, so it can be used for online play in any QW client.
+
+-- Tonik, 30.12.2012

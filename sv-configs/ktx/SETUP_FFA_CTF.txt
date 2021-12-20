@@ -1,0 +1,37 @@
+#################################################
+Recommended procedure to run a FFA and CTF server
+using nQuakesv
+#################################################
+
+0. Make sure you have available ports to run FFA/CTF server, because we are going to use the existing port configs to set FFA and/or CTF. If you don't, read "Settings" at  https://github.com/nQuake/server-linux/blob/master/README.md
+
+
+## Procedure to run a FFA port:
+1. Edit one of the existing "portX.cfg". Change the following lines to:
+  set k_matchless               1  
+  set k_use_matchless_dir       0  
+  set k_mode                    3  
+  set k_defmode                 ffa
+  set k_allowed_free_modes      32
+  map dm2 //choose a default map
+
+2. To change the map rotation, edit configs/usermodes/ffa/default.cfg.
+3. Done
+
+
+## Procedure to run a CTF port:
+1. Edit one of the existing "port_285xx.cfg". Change the following lines to:
+  set k_matchless               0  
+  set k_use_matchless_dir       2  
+  set k_mode                    4  
+  set k_defmode                 ctf
+  set k_allowed_free_modes      64
+2. Done
+
+## Procedure to run a CTF port, but matchless (like FFA, everyone can join):
+1. Same as above but set this line instead:
+  set k_matchless               1  
+2. To change the map rotation, edit configs/usermodes/matchless/ctf.cfg.
+3. Done
+
+//EOF

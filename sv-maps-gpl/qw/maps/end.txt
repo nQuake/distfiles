@@ -1,0 +1,9 @@
+This is Quake's end map compiled from GPL'd .map sources.
+
+SputnikUtah edited it to remove the redundant exit room and compiled the map with Baker5's simple.wad (flat textures).
+
+Then I added colored lighting (BSPX extension) and changed the entity lump to be equivalent to the vanilla end.bsp.
+
+The map's checksum is the same as the vanilla map's, so you can play it on any public QuakeWorld server with any QW client.
+
+-- Tonik, 29.12.2012

@@ -1,0 +1,69 @@
+Welcome to a simpler QuakeWorld server experience.
+
+nQuakesv is a server package that contains MVDSV,
+KTX, QTV and QWFWD, all preconfigured and tested.
+It also contains update scripts for MVDSV and KTX,
+maps and configurations.
+
+From the nQuakesv directory:
+* To start nQuakesv, type "./start_servers.sh".
+* To stop nQuakesv, type "./stop_servers.sh"
+* To update MVDSV and KTX, type "./update_binaries.sh"
+* To update map pool, type "./update_maps.sh"
+* To update server configuration, type "./update_configs.sh"
+
+A note on the server configuration updater:
+The script will not replace any of the information
+you entered during setup. It is therefore safe to
+update your server configuration if you haven't
+made any changes to the nQuakesv configs manually.
+This way you can be ensured that you have the
+latest config files you can get.
+
+The update scripts can be run in crobtab with the
+following parameters:
+
+--random-mirror --restart --no-restart --sure
+
+The --sure parameter is specific for the config
+update script.
+
+=================================================
+Examples:
+
+Type "crontab -e" to edit your crontab in Linux.
+
+Add the following:
+
+*/10 * * * * /home/quake/nquakesv/start_servers.sh >/dev/null 2>&1
+
+This checks if the nQuakesv servers are running
+every 10 minutes, if they aren't running, they are
+started.
+
+30 5 * * 2 /home/quake/nquakesv/update_maps.sh --random-mirror --no-restart >/dev/null 2>&1
+
+This updates your map pool every tuesday at 5:30 AM
+using a random mirror and does not restart your
+servers.
+
+40 5 * * 2 /home/quake/nquakesv/update_configs.sh --random-mirror --no-restart --sure >/dev/null 2>&1
+
+This updates your config files for KTX, MVDSV,
+QTV and QWFWD at 5:40 AM every tuesday. It uses
+a random mirror and does not restart the servers.
+The --sure parameter accepts the warning that
+your configuration files are about to be
+overwritten.
+
+42 5 * * 2 /home/quake/nquakesv/update_binaries.sh --random-mirror --restart >/dev/null 2>&1
+
+This updates your MVDSV and KTX binaries every
+tuesday (2) at 5:42 AM. It uses a random mirror
+and automatically restarts your servers after
+the update has been performed.
+
+Using these examples above, your server will stay
+updated even if you are not there to oversee it.
+-
+Last updated on 2012-08-25

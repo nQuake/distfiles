@@ -1,0 +1,7 @@
+This map is compiled from GPL sources with Baker5's simple.wad, with integrated colored lighting (BSPX extension)
+
+The original dm1.map file released by John Romero wasn't compatible with the dm1.bsp from pak1.pak: builtin model numbers didn't match.  I fixed that by reordering the brushes in the .map file to match the 'vanilla' dm1.bsp.
+
+The checksum is the same as in the vanilla map from pak1.pak, so it can be used for online play in any QW client.
+
+-- Tonik, 29.12.2012

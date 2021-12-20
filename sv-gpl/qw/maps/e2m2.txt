@@ -1,0 +1,5 @@
+AquaShark's e2m2 compiled from GPL sources with Baker5's simple.wad, with integrated colored lightmap (BSPX extension)
+
+The checksum is the same as in the vanilla map from pak1.pak, so it can be used for online play in any QW client.
+
+-- Tonik, 29.12.2012
