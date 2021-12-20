@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Create release
+
+jobs:
+  build:
+    name: Create release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create archives
+        run: find . -type d -maxdepth 1 ! -iname ".*" -exec bash -c 'cd {}; zip -qq -r ../{}.zip *' \;
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "*.zip"
+          commit: ${{ github.sha }}
+          tag: nQuake_distfiles
+          token: ${{ secrets.GITHUB_TOKEN }}
+
