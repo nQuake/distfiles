@@ -14,12 +14,18 @@ jobs:
         uses: actions/checkout@v2
       - name: Create archives
         run: find . -type d -maxdepth 1 ! -iname ".*" -exec bash -c 'cd {}; zip -qq -r ../{}.zip *' \;
+      - name: Remove tag and release
+        uses: dev-drprasad/delete-tag-and-release@v0.2.0
+        with:
+          delete_release: true
+          tag_name: snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true
           artifacts: "*.zip"
           commit: ${{ github.sha }}
-          tag: nQuake_distfiles
+          tag: snapshot
           token: ${{ secrets.GITHUB_TOKEN }}
 
