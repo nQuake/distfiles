@@ -20,7 +20,7 @@ made any changes to the nQuakesv configs manually.
 This way you can be ensured that you have the
 latest config files you can get.
 
-The update scripts can be run in crobtab with the
+The update scripts can be run in crontab with the
 following parameters:
 
 --random-mirror --restart --no-restart --sure
