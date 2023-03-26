@@ -15,7 +15,7 @@ jobs:
       - name: Create archives
         run: find . -type d -maxdepth 1 ! -iname ".*" -exec bash -c 'cd {}; zip -qq -r ../{}.zip *' \;
       - name: Remove tag and release
-        uses: dev-drprasad/delete-tag-and-release@v0.2.0
+        uses: dev-drprasad/delete-tag-and-release@v0.2.1
         with:
           delete_release: true
           tag_name: snapshot
