@@ -8,4 +8,4 @@ if [ ! -f "$DIRNAME"/../Resources/id1/pak0.pak ]; then
     exit
 fi
 
-exec "$DIRNAME"/ezquake-darwin-x86_64 -basedir "$DIRNAME"/../Resources
+exec "$DIRNAME"/ezquake-darwin-arm -basedir "$DIRNAME"/../Resources
