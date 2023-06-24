@@ -13,7 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Create archives
-        run: find . -type d -maxdepth 1 ! -iname ".*" -exec bash -c 'cd {}; zip -qq -r ../{}.zip *' \;
+        run: |
+          find . -maxdepth 1 -type d ! -iname ".*" -print0|xargs -0 -I% -P$(nproc) bash -c 'cd % && zip -q -9 -r ../%.zip * && echo "% complete."'
+          ls *.zip||exit 1
       - name: Remove tag and release
         uses: dev-drprasad/delete-tag-and-release@v0.2.1
         with:
@@ -21,11 +23,22 @@ jobs:
           tag_name: snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create release
-        uses: ncipollo/release-action@v1
+      - name: Tag as snapshot
+        uses: rickstaa/action-create-tag@v1
+        id: "tag_create"
         with:
-          artifacts: "*.zip"
-          commit: ${{ github.sha }}
+          tag: "snapshot"
+          tag_exists_error: false
+          message: "Latest release"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: ./*.zip
           tag: snapshot
-          token: ${{ secrets.GITHUB_TOKEN }}
-
+          overwrite: true
+          promote: true
+          body: "nQuake asset release."
