@@ -8,11 +8,13 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>mvd</string>
+				<string>qwd</string>
+				<string>dem</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>ezquake.icns</string>
 			<key>CFBundleTypeName</key>
-			<string>MVD demo</string>
+			<string>Quake demo</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 		</dict>
@@ -37,6 +39,6 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.2.1</string>
+	<string>3.6.4-dev</string>
 </dict>
 </plist>
