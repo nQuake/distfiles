@@ -10,6 +10,6 @@ if [ ! -f "$DIRNAME"/id1/pak0.pak ]; then
     exit
 fi
 
-PNAME="$(cd "$(dirname "$0")"; pwd -P)"
+PNAME="$(cd "$(dirname "$BASH_SOURCE")"; pwd -P)"
 
-exec "$PNAME"/ezquake-darwin-arm -basedir "$DIRNAME"
+exec "$PNAME"/ezquake-darwin-arm -basedir "$DIRNAME" $*
