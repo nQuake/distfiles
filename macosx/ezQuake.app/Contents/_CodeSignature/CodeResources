@@ -11,23 +11,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/libFLAC.12.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			LVZQvsqAbNnAWd87LDTy4R+NQVg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"2d5650beca806cd9c059df3b2c34f2e11f8d4158"</string>
+		</dict>
 		<key>Frameworks/libSDL2-2.0.0.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			0cqyYM7KnjjgECNiTfDN9bJ9tmw=
+			W75PLxbbWR95v5ImIOGWw2WzxUw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d1cab260ceca9e38e01023624df0cdf5b27db66c"</string>
+			<string>cdhash H"5bbe4f2f16db591f79bf922620e196c365b3c54c"</string>
 		</dict>
 		<key>Frameworks/libfreetype.6.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Ob2x04Ln8yNV9KRSzchoSwa697Y=
+			zSkQHfM25ptvmH9/glBVH4ksisE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"39bdb1d382e7f32355f4a452cdc8684b06baf7b6"</string>
+			<string>cdhash H"cd29101df336e69b6f987f7f8250551f892c8ac1"</string>
 		</dict>
 		<key>Frameworks/libjansson.4.dylib</key>
 		<dict>
@@ -47,14 +56,59 @@
 			<key>requirement</key>
 			<string>cdhash H"c3cd5044e8a5e740aad8865abfc8e83834cf4765"</string>
 		</dict>
-		<key>Frameworks/libpcre.1.dylib</key>
+		<key>Frameworks/libminizip.1.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			p8xmRxCMYfcx49qr5dmeEbe5Arg=
+			8iWLjMzCwrr360Strw+Gd3tIKAw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a7cc6647108c61f731e3daabe5d99e11b7b902b8"</string>
+			<string>cdhash H"f2258b8cccc2c2baf7eb44adaf0f86777b48280c"</string>
+		</dict>
+		<key>Frameworks/libmp3lame.0.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			vGd6EMqbp7jgPRV743vMXDsNLBM=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"bc677a10ca9ba7b8e03d157be37bcc5c3b0d2c13"</string>
+		</dict>
+		<key>Frameworks/libmpg123.0.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			cnAFBhFsiTj5SI2hWjkCXnLLwJg=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"72700506116c8938f9488da15a39025e72cbc098"</string>
+		</dict>
+		<key>Frameworks/libogg.0.8.5.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			k70rPjKijV1sc1BFuphM9/orah0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"93bd2b3e32a28d5d6c735045ba984cf7fa2b6a1d"</string>
+		</dict>
+		<key>Frameworks/libopus.0.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			VYz4Tn/HjzGZm4DQoTXzE31C5ls=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"558cf84e7fc78f31999b80d0a135f3137d42e65b"</string>
+		</dict>
+		<key>Frameworks/libpcre2-8.0.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			I4ZYqQhSQXW7ZAhUJQlJO30zKig=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"238658a908524175bb6408542509493b7d332a28"</string>
 		</dict>
 		<key>Frameworks/libpng16.16.dylib</key>
 		<dict>
@@ -69,10 +123,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			44J1pSf14xSucAFCDHe1EgOYJtM=
+			tl5+dR934Ysyv1juy4LaZF3Gaf0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e38275a527f5e314ae7001420c77b512039826d3"</string>
+			<string>cdhash H"b65e7e751f77e18b32bf58eecb82da645dc669fd"</string>
 		</dict>
 		<key>Frameworks/libspeex.1.dylib</key>
 		<dict>
@@ -92,14 +146,32 @@
 			<key>requirement</key>
 			<string>cdhash H"013ac4bc79a5fe9f1e7bc04115f487d9ae112d2a"</string>
 		</dict>
-		<key>MacOS/ezquake-darwin-x86_64</key>
+		<key>Frameworks/libvorbis.0.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			F5WM9vhrHkCFlu5yGCMFneOccP8=
+			iGoYsXe7E0IwmDi/4p1YcAOmjzk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"17958cf6f86b1e408596ee721823059de39c70ff"</string>
+			<string>cdhash H"886a18b177bb1342309838bfe29d587003a68f39"</string>
+		</dict>
+		<key>Frameworks/libvorbisenc.2.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			6XmDiaJLl2l3IiJYOn1UMN+GBQo=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"e9798389a24b9769772222583a7d5430df86050a"</string>
+		</dict>
+		<key>MacOS/ezquake-darwin-arm64</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			p1A/1aYMdMJIw3TpTzlZ4A9XH10=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"a7503fd5a60c74c248c374e94f3959e00f571f5d"</string>
 		</dict>
 		<key>Resources/ezquake.icns</key>
 		<dict>
