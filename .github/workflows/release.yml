@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Create archives
         run: |
           find . -maxdepth 1 -type d ! -iname ".*" -print0|xargs -0 -I% -P$(nproc) bash -c 'cd % && zip -q -9 -r ../%.zip * && echo "% complete."'
           ls *.zip||exit 1
       - name: Remove tag and release
-        uses: dev-drprasad/delete-tag-and-release@v0.2.1
+        uses: dev-drprasad/delete-tag-and-release@v1.1
         with:
           delete_release: true
           tag_name: snapshot
