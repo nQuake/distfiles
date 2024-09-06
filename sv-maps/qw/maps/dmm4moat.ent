@@ -1,0 +1,160 @@
+{
+"classname" "worldspawn"
+"wad" "C:\qoole\Fzarena5.wad"
+"message" "DMM4 Moat \nby Brunowa (Rocket Arena Conversion)\nOriginal map: safera.bsp by N0FaDz\n"
+}
+{
+"classname" "info_player_start"
+"origin" "1 -6 212"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "8 467 82"
+"angle" "270"
+"targetname" "tele1"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "3 -227 -310"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "11 -465 85"
+"angle" "90"
+"targetname" "tele2"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "417 2 73"
+"angle" "180"
+"targetname" "fony2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-435 -9 73"
+"angle" "0"
+"targetname" "fony1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-410 0 -90"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "10 -450 100"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "410 0 -90"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "10 450 100"
+"angle" "270"
+}
+
+{
+"classname" "light"
+"origin" "14 1 274"
+"light" "780"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "765 387 223"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "760 -400 223"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "9 -243 -277"
+"light" "600"
+"style" "2"
+}
+{
+"classname" "light"
+"origin" "10 235 -306"
+"light" "600"
+"style" "2"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "10 204 -301"
+}
+{
+"classname" "light"
+"origin" "232 -122 -170"
+"light" "200"
+"style" "10"
+}
+{
+"classname" "info_intermission"
+"origin" "340 -189 -253"
+"mangle" "-13 149 8"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "438 -249 -151"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "-420 -257 -145"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "-402 277 -136"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "424 258 -154"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "13 -471 -149"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "19 459 -140"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "7 -3 82"
+"angle" "90"
+"targetname" "fony3"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "640 313 345"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "633 -335 347"
+}
+{
+"classname" "light"
+"origin" "638 318 389"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "632 -335 392"
+"light" "100"
+}

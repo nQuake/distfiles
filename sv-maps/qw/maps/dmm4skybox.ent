@@ -1,0 +1,162 @@
+{
+"classname" "worldspawn"
+"wad" "C:\Program Files\Qoole\work\fettra2.wad"
+"message" "DMM4 Skybox \nby Brunowa (Rocket Arena Conversion)\nOriginal map: fettra2.bsp by Erich Heintz\n"
+}
+{
+"classname" "light"
+"origin" "-50 0 352"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "48 0 352"
+"light" "100"
+}
+{
+"classname" "light_fluoro"
+"origin" "0 0 168"
+"light" "300"
+}
+{
+"classname" "info_player_start"
+"origin" "-4 -156 -256"
+"angle" "90"
+}
+{
+"classname" "func_plat"
+"speed" "250"
+"height" "304"
+"sounds" "1"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"speed" "250"
+"height" "304"
+"sounds" "1"
+"model" "*2"
+}
+{
+"classname" "light_fluoro"
+"origin" "192 220 -156"
+"light" "255"
+}
+{
+"classname" "light_fluoro"
+"origin" "-196 220 -156"
+"light" "260"
+}
+{
+"classname" "light_fluoro"
+"origin" "-196 -220 -156"
+"light" "255"
+}
+{
+"classname" "light_fluoro"
+"origin" "192 -220 -156"
+"light" "260"
+}
+{
+"classname" "light_fluoro"
+"origin" "160 112 24"
+"light" "230"
+}
+{
+"classname" "light_fluoro"
+"origin" "0 0 24"
+"light" "250"
+}
+{
+"classname" "light_fluoro"
+"origin" "-176 -124 24"
+"light" "230"
+}
+{
+"classname" "light_fluoro"
+"origin" "160 -128 24"
+"light" "230"
+}
+{
+"classname" "light_fluoro"
+"origin" "368 0 100"
+"light" "200"
+}
+{
+"classname" "light_fluoro"
+"origin" "-368 0 100"
+"light" "200"
+}
+{
+"classname" "light_fluoro"
+"origin" "0 0 -244"
+"light" "100"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-330 0 -250"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-360 0 55"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "330 0 -250"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "360 0 55"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 235 -100"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -235 -100"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 0 80"
+"angle" "90"
+"targetname" "respawn"
+}
+{
+"classname" "light"
+"origin" "-432 0 -224"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "432 0 -224"
+"light" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "252 -136 80"
+"angle" "90"
+"targetname" "respawn"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-232 104 80"
+"angle" "90"
+"targetname" "respawn"
+}
+{
+"classname" "light_fluoro"
+"origin" "-176 112 24"
+"light" "230"
+}
+{
+"classname" "trigger_changelevel"
+"map" "fettra2"
+"spawnflags" "1"
+}

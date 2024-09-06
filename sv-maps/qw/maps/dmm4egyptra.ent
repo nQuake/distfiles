@@ -1,0 +1,391 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Egyptra \nby Brunowa (Rocket Arena Conversion)\n"
+"message" "DMM4 Egyptra \nby Brunowa (Rocket Arena Conversion)\nOriginal map: egyptra.bsp\n"
+
+"wad" "c:\r_quake\qed\qedmain.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -784 -360"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "500 500 52"
+"angle" "225"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 0"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -448 52"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-500 500 52"
+"angle" "315"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 100 310"
+"angle" "270"
+}
+{
+"classname" "func_illusionary"
+"model" "*1"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"model" "*2"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "50"
+"model" "*3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-96 -16 308"
+"angle" "45"
+"targetname" "up1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "96 -16 308"
+"angle" "135"
+"targetname" "up2"
+}
+{
+"classname" "trigger_teleport"
+"target" "up1"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"target" "up2"
+"model" "*5"
+}
+{
+"classname" "light"
+"origin" "-64 0 416"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "-320 0 416"
+"light" "500"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "320 0 416"
+"light" "500"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "64 0 416"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "-576 0 256"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "576 0 256"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-704 512 128"
+"light" "350"
+"style" "0"
+"angle" "315"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-704 -512 128"
+"light" "350"
+"style" "0"
+"angle" "45"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "704 512 128"
+"light" "350"
+"style" "0"
+"angle" "225"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "704 -512 128"
+"light" "350"
+"style" "0"
+"angle" "135"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-256 636 128"
+"light" "275"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 -636 128"
+"light" "350"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "-288 376 256"
+"light" "350"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "-256 -320 256"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "256 -320 256"
+"light" "400"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "288 376 256"
+"light" "350"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 636 128"
+"light" "275"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 116 208"
+"light" "250"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 508 208"
+"light" "200"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 44 208"
+"light" "200"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "-576 -384 64"
+"light" "300"
+"style" "0"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "576 -384 64"
+"light" "300"
+"style" "0"
+"angle" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-824 0 128"
+"light" "350"
+"style" "0"
+"angle" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "824 0 128"
+"light" "350"
+"style" "0"
+"angle" "180"
+}
+{
+"classname" "light"
+"origin" "128 -480 64"
+"light" "200"
+"style" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "-128 -480 64"
+"light" "200"
+"style" "0"
+"angle" "-1"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-192 96 64"
+"light" "250"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-192 -96 64"
+"light" "250"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "192 -96 64"
+"light" "250"
+"style" "0"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "192 96 64"
+"light" "250"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "-112 0 48"
+"light" "250"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "112 0 48"
+"light" "250"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "0 576 144"
+"light" "200"
+"style" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "0 560 320"
+"light" "200"
+"style" "0"
+"angle" "-2"
+}
+{
+"classname" "func_illusionary"
+"model" "*6"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-248 -800 288"
+"light" "250"
+"style" "0"
+"angle" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "248 -800 288"
+"light" "250"
+"style" "0"
+"angle" "180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "96 -1018 288"
+"light" "200"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-96 -1018 288"
+"light" "200"
+"style" "0"
+"angle" "90"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"model" "*7"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "40"
+"model" "*8"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "248 -840 -320"
+"light" "275"
+"style" "5"
+"angle" "180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "248 -1016 -320"
+"light" "275"
+"style" "3"
+"angle" "180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-248 -1016 -320"
+"light" "275"
+"style" "7"
+"angle" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-248 -840 -320"
+"light" "275"
+"style" "0"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "0 -880 -256"
+"light" "225"
+"style" "0"
+"angle" "-2"
+}

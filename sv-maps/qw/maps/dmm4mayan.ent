@@ -1,0 +1,169 @@
+{
+"wad" "c:\qbsp29\main.wad;tech.wad"
+"classname" "worldspawn"
+"message" "DMM4 Mayan Showdown \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: mayan1.bsp by NiOXiN\n"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "456 344 616"
+"targetname" "t3"
+"angle" "270"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "194 -474 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "194 -422 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "566 -62 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "650 -62 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "66 422 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "66 474 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-310 66 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-394 66 644"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-206 342 684"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "474 -338 684"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "354 230 668"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-102 -226 668"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "120 -8 904"
+"light" "250"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-502 -374 644"
+"light" "150"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-246 -630 724"
+"light" "150"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "142 -630 832"
+"light" "150"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "114 630 832"
+"light" "150"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "506 630 724"
+"light" "150"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "758 374 644"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-88 204 904"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "328 -216 904"
+"light" "250"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"angle" "270"
+"targetname" "t2"
+"origin" "440 -456 584"
+"classname" "info_teleport_destination"
+}
+{
+"target" "t2"
+"classname" "trigger_teleport"
+"model" "*2"
+}
+{
+"angle" "90"
+"targetname" "t1"
+"origin" "-192 440 584"
+"classname" "info_teleport_destination"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-248 -344 616"
+"targetname" "t4"
+"angle" "90"
+}
+{
+"angle" "225"
+"origin" "528 432 1048"
+"classname" "info_player_start"
+}
+{
+"angle" "135"
+"origin" "420 -300 720"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "315"
+"origin" "-175 295 720"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "227"
+"origin" "550 430 535"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "47"
+"origin" "-285 -430 535"
+"classname" "info_player_deathmatch"
+}

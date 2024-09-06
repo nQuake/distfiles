@@ -1,0 +1,592 @@
+{
+"classname" "worldspawn"
+"wad" "D:\s1mpQuake\gtkradiant\q1.game\id1\newskip.wad;D:\s1mpQuake\gtkradiant\q1.game\id1\ktx.wad;D:\s1mpQuake\gtkradiant\q1."
+"message" "DMM4 Gangster's Club \nby Brunowa (Rocket Arena Conversion)\nOriginal map: dspra1.bsp by DeadLy\n"
+"worldtype" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "112 656 328"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "96 -416 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "504 -312 40"
+"light" "40"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-32 248 272"
+"light" "80"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "96 -672 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "32 -416 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-32 -96 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "32 -672 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-760 144 80"
+"light" "110"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "160 248 272"
+"light" "80"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-656 248 80"
+"light" "110"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-88 -1064 72"
+"light" "130"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "216 -1064 72"
+"light" "130"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "888 144 80"
+"light" "110"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "784 248 80"
+"light" "110"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "760 -808 80"
+"light" "120"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "888 144 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "784 248 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-760 144 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-656 248 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "760 -808 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-8 -800 192"
+"light" "70"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "376 -976 336"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "136 -800 192"
+"light" "70"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-88 -1064 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-633 -803 208"
+"light" "10"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "216 -1064 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "256 -776 208"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "64 -632 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "248 -224 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-120 -288 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "108 -8 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "248 -288 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-120 -224 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "20 -8 440"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "792 -304 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "800 -272 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "792 -176 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "784 -272 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "784 -208 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "800 -208 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "0 344 132"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "32 416 228"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "96 416 228"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "32 432 228"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "96 432 228"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "416 136 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "448 128 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "544 136 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "512 128 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "448 144 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "512 144 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-416 136 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-384 128 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-288 136 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-320 128 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-384 144 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-320 144 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-648 -176 132"
+"light" "60"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-656 -208 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-648 -304 132"
+"light" "100"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-656 -272 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-640 -208 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "light"
+"origin" "-640 -272 308"
+"light" "10"
+"delay" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*1"
+}
+{
+"classname" "light"
+"origin" "160 -96 -16"
+"light" "25"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-128 -776 208"
+"light" "70"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "-248 -976 336"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "112 -968 224"
+"light" "20"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "64 -872 216"
+"light" "30"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "16 -968 224"
+"light" "20"
+"delay" "2"
+}
+{
+"classname" "func_illusionary"
+"model" "*2"
+}
+{
+"classname" "func_illusionary"
+"model" "*3"
+}
+{
+"classname" "light"
+"origin" "112 -688 352"
+"light" "20"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "16 -688 352"
+"light" "20"
+"delay" "2"
+}
+{
+"classname" "func_illusionary"
+"model" "*4"
+}
+{
+"classname" "func_wall"
+"model" "*5"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-745 -108 106"
+"light" "40"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "342 -660 64"
+"light" "40"
+"style" "3"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "324 -658 65"
+"light" "40"
+"style" "3"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "332 -648 66"
+"light" "40"
+"style" "3"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "346 -642 65"
+"light" "40"
+"style" "3"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "326 -636 65"
+"light" "40"
+"style" "3"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-736 -104 110"
+"light" "40"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-750 -91 105"
+"light" "40"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-726 -93 107"
+"light" "40"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-728 -115 105"
+"light" "40"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "65 -710 0"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "65 -100 0"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "840 -240 55"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-700 -200 55"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "60 -1000 55"
+"angle" "90"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "15"
+"model" "*6"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 -736 -24"
+"angle" "90"
+"targetname" "ra"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-656 144 40"
+"targetname" "ra1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "784 152 40"
+"angle" "180"
+"targetname" "ra2"
+}
+{
+"classname" "light"
+"origin" "0 424 116"
+"light" "80"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "128 424 116"
+"light" "80"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "128 344 132"
+"light" "50"
+"delay" "2"
+}
+{
+"classname" "light"
+"origin" "112 648 292"
+"light" "15"
+"delay" "2"
+}
+{
+"classname" "func_illusionary"
+"model" "*7"
+}
+{
+"classname" "func_illusionary"
+"model" "*8"
+}

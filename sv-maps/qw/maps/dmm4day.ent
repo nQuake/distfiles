@@ -1,0 +1,127 @@
+{
+"classname" "worldspawn"
+"sounds" "5"
+"worldtype" "0"
+"message" "Day 444 for dmm4"
+"message" "DMM4 Day \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: dmm4day.bsp\n"
+"wad" "C:\PROGRA~1\Qoole\work\daydmm444.wad"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "a2t2"
+"angle" "0"
+"origin" "978 317 249"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "a2t1"
+"angle" "180"
+"origin" "2252 309 249"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "1194 617 152"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "1618 1008 303"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "1621 311 24"
+}
+{
+"classname" "trigger_teleport"
+"delay" "1"
+"target" "a2t2"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"delay" "1"
+"target" "a2t1"
+"model" "*2"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "1168 778 123"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "1178 -172 123"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "2038 -172 126"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "2028 778 123"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "2058 298 34"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "400"
+"origin" "1178 298 36"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "800"
+"origin" "1538 170 576"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "1174 -32 152"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "2062 18 152"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "2062 642 152"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "200"
+"origin" "1638 720 59"
+}
+{
+"classname" "light"
+"delay" "1"
+"style" "0"
+"light" "200"
+"origin" "1638 -128 27"
+}

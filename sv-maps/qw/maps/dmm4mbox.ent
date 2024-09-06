@@ -1,0 +1,153 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 MetalBox \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: mboxdmm4.bsp by -ecOus-\n"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "4500"
+"dmg" "0"
+"sounds" "1"
+"lip" "0"
+"health" "0"
+"wait" "0.4"
+"targetname" "door2"
+"model" "*1"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "960 336 72"
+}
+{
+"classname" "light_globe"
+"angle" "270"
+"light" "300"
+"style" "3"
+"origin" "1328 772 -350"
+"_color" "255 255 0"
+}
+{
+"classname" "light_globe"
+"angle" "270"
+"light" "300"
+"style" "3"
+"origin" "756 -226 -350"
+"_color" "255 255 0"
+}
+{
+"classname" "light"
+"angle" "180"
+"light" "800"
+"origin" "1112 200 72"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "500"
+"origin" "1112 344 72"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "500"
+"origin" "960 208 72"
+}
+{
+"classname" "func_button"
+"speed" "3000"
+"health" "1"
+"target" "door2"
+"delay" "0"
+"wait" "8"
+"model" "*2"
+}
+{
+"classname" "func_button"
+"angle" "181"
+"speed" "3000"
+"health" "1"
+"target" "door2"
+"delay" "0"
+"wait" "8"
+"model" "*3"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "4"
+"origin" "1452 480 -144"
+"_color" "50 10 255"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "4"
+"origin" "632 48 -144"
+"_color" "50 10 255"
+}
+{
+"classname" "trigger_teleport"
+"target" "t_1"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "t_1"
+"origin" "1032 272 144"
+}
+{
+"classname" "light"
+"angle" "178"
+"light" "270"
+"origin" "592 332 -456"
+"_color" "255 0 0"
+}
+{
+"classname" "light"
+"angle" "4"
+"light" "270"
+"origin" "1488 212 -456"
+"_color" "255 0 0"
+}
+{
+"classname" "light"
+"angle" "270"
+"light" "370"
+"origin" "1036 272 -476"
+"_color" "255 0 0"
+}
+{
+"classname" "light"
+"angle" "270"
+"light" "150"
+"style" "0"
+"origin" "1032 264 20"
+"_color" "255 0 0"
+}
+{
+"classname" "info_player_start"
+"angle" "311"
+"origin" "864 736 -432"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "1445 480 -215"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "630 60 -215"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "960 700 -440"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "1110 -170 -440"
+}

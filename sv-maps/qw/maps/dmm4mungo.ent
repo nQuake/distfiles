@@ -1,0 +1,237 @@
+{
+"wad" "c:\program files\worldcraft\hipnotic.wad"
+"message" "DMM4 Mungo Arena\nby Brunowa (Rocket Arena Conversion)\nOriginal map: marena3.bsp\n"
+"sounds" "2"
+"worldtype" "2"
+"classname" "worldspawn"
+}
+{
+"origin" "-536 0 192"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "t1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*2"
+"target" "t2"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-88 208 40"
+"targetname" "t1"
+"angle" "225"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "88 -208 40"
+"targetname" "t2"
+"angle" "45"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "0 0 704"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "-384 0 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "0 384 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "384 0 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "0 -384 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-272 -272 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "272 -272 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "272 272 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-272 272 320"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-384 32 -208"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "384 -32 -208"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-96 96 -160"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "96 -96 -160"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-384 -64 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "384 64 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "288 288 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "64 384 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-288 -288 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-96 -384 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-288 288 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "288 -288 -32"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "384 256 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "160 384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-192 384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-384 -256 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-160 -384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "192 -384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "0 384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "0 -384 -224"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "160 160 -96"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-160 -160 -96"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-640 0 224"
+"light" "300"
+"classname" "light"
+}
+{
+"model" "*3"
+"target" "mungo"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-273 -277 -37"
+"angle" "45"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "275 271 -72"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "143 -151 24"
+"angle" "135"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-156 148 24"
+"angle" "315"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-128 -192 -224"
+"targetname" "mungo"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "128 192 -224"
+"targetname" "jerry"
+"angle" "180"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-96 96 -224"
+"classname" "item_arena_rune"
+}
+{
+"origin" "96 -96 -224"
+"classname" "item_arena_rune"
+}

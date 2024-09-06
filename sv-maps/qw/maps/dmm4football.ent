@@ -1,0 +1,413 @@
+{
+"classname" "worldspawn"
+"worldtype" "2"
+"light" "5"
+"message" "DMM4 Football \nby Brunowa (Rocket Arena Conversion)\nOriginal map: football.bsp by Aegis\n"
+
+}
+{
+"classname" "info_player_start"
+"origin" "-528 -284 -328"
+}
+{
+"classname" "light"
+"origin" "688 -212 -436"
+}
+{
+"classname" "light"
+"origin" "152 -220 -436"
+}
+{
+"classname" "light"
+"origin" "152 -380 -440"
+}
+{
+"classname" "light"
+"origin" "228 -380 -440"
+}
+{
+"classname" "light"
+"origin" "316 -380 -440"
+}
+{
+"classname" "light"
+"origin" "392 -380 -440"
+}
+{
+"classname" "light"
+"origin" "680 -380 -440"
+}
+{
+"classname" "light"
+"origin" "600 -376 -440"
+}
+{
+"classname" "light"
+"origin" "496 -380 -440"
+}
+{
+"classname" "light"
+"origin" "688 -300 -440"
+}
+{
+"classname" "light"
+"origin" "160 592 -436"
+}
+{
+"classname" "light"
+"origin" "680 593 -440"
+}
+{
+"classname" "light"
+"origin" "680 508 -440"
+}
+{
+"classname" "light"
+"origin" "680 424 -440"
+}
+{
+"classname" "light"
+"origin" "692 188 -440"
+}
+{
+"classname" "light"
+"origin" "688 284 -440"
+}
+{
+"classname" "light"
+"origin" "688 356 -440"
+}
+{
+"classname" "light"
+"origin" "688 96 -440"
+}
+{
+"classname" "light"
+"origin" "692 12 -440"
+}
+{
+"classname" "light"
+"origin" "160 -132 -440"
+}
+{
+"classname" "light"
+"origin" "160 -56 -440"
+}
+{
+"classname" "light"
+"origin" "160 18 -440"
+}
+{
+"classname" "light"
+"origin" "160 93 -440"
+}
+{
+"classname" "light"
+"origin" "160 358 -440"
+}
+{
+"classname" "light"
+"origin" "160 282 -440"
+}
+{
+"classname" "light"
+"origin" "160 188 -440"
+}
+{
+"classname" "light"
+"origin" "160 434 -440"
+}
+{
+"classname" "light"
+"origin" "160 510 -440"
+}
+{
+"classname" "light"
+"origin" "688 -60 -440"
+}
+{
+"classname" "light"
+"origin" "688 -136 -440"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "760 668 -360"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "708 724 -356"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "140 720 -356"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "84 664 -356"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "136 -436 -356"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "88 -388 -356"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "764 -380 -360"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "708 -436 -356"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "416 24 -36"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "416 148 -36"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "416 284 -36"
+}
+{
+"classname" "light"
+"origin" "163 656 -440"
+}
+{
+"classname" "light"
+"origin" "243 656 -440"
+}
+{
+"classname" "light"
+"origin" "324 656 -440"
+}
+{
+"classname" "light"
+"origin" "406 656 -440"
+}
+{
+"classname" "light"
+"origin" "688 656 -440"
+}
+{
+"classname" "light"
+"origin" "607 656 -440"
+}
+{
+"classname" "light"
+"origin" "506 656 -440"
+}
+{
+"classname" "light"
+"origin" "156 -296 -440"
+}
+{
+"classname" "light"
+"light" "125"
+"style" "0"
+"origin" "-144 -352 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 -152 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 56 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 256 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 472 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 688 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 688 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 472 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 256 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 56 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 -152 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 -352 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 -576 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "976 896 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 896 -160"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-144 -576 -160"
+}
+{
+"classname" "light"
+"origin" "1245 157 -364"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1008 156 -368"
+}
+{
+"classname" "light"
+"origin" "-180 157 -365"
+}
+{
+"classname" "light"
+"origin" "-400 156 -366"
+}
+{
+"classname" "light_globe"
+"light" "250"
+"style" "0"
+"origin" "-410 -352 -287"
+}
+{
+"classname" "light_globe"
+"light" "250"
+"style" "0"
+"origin" "-410 -515 -287"
+}
+{
+"classname" "light_globe"
+"light" "250"
+"style" "0"
+"origin" "1247 652 -287"
+}
+{
+"classname" "light_globe"
+"light" "250"
+"style" "0"
+"origin" "1247 815 -287"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "400 525 -325"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "400 -250 -325"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "690 150 -475"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "160 150 -475"
+"angle" "0"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "2"
+"origin" "400 528 -312"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "1"
+"origin" "400 -248 -312"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1244 388 -364"
+}
+{
+"classname" "light"
+"origin" "-404 -92 -364"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "60"
+"delay" "2"
+"speed" "45"
+"model" "*1"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"style" "60"
+"delay" "2"
+"speed" "2"
+"model" "*2"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "60"
+"delay" "2"
+"speed" "45"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"style" "60"
+"delay" "2"
+"speed" "2"
+"model" "*4"
+}

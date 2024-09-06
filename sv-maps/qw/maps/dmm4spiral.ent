@@ -1,0 +1,253 @@
+{
+"classname" "worldspawn"
+"worldtype" "1"
+"light" "8"
+"message" "DMM4 Spiral \nby Brunowa (Rocket Arena Conversion)\nOriginal map: rcra2.bsp\n"
+"wad" "c:\quake_ed\rc2.wad;c:\quake_ed\rcdm7.wad;c:\quake_ed\mipdip\basic.wad;c:\quake_ed\mipdip"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "2"
+"origin" "0 -48 -496"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "2"
+"origin" "0 112 -496"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "2"
+"origin" "-80 32 -496"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "2"
+"origin" "80 32 -496"
+}
+{
+"classname" "light"
+"light" "40"
+"angle" "2"
+"origin" "0 32 -496"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-608 -576 -72"
+}
+{
+"classname" "light_flame_large_yellow"
+"angle" "3"
+"origin" "235 299 -212"
+}
+{
+"classname" "light_flame_small_yellow"
+"origin" "-8 344 40"
+}
+{
+"classname" "light_flame_small_yellow"
+"origin" "-312 32 40"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "45"
+"targetname" "t3"
+"origin" "-304 336 32"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-608 -272 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-608 32 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "608 -576 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "608 -272 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "608 32 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-304 -576 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "304 -576 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-608 640 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "608 640 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-304 640 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "304 640 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "0 640 -72"
+}
+{
+"classname" "info_player_start"
+"origin" "-608 32 -112"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "0 -576 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "-608 336 -72"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "1"
+"origin" "608 336 -72"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"angle" "1"
+"origin" "480 -44 -320"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "1"
+"origin" "480 108 -320"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "t2"
+"origin" "416 32 -336"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"angle" "1"
+"origin" "480 -44 64"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "1"
+"origin" "480 108 64"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "t1"
+"origin" "416 32 48"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "100"
+"angle" "3"
+"origin" "-328 -296 -264"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "t4"
+"origin" "-448 32 -352"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "t5"
+"origin" "0 -416 -336"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "t6"
+"origin" "0 480 48"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "t7"
+"origin" "-448 32 48"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "0 -335 -170"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "380 30 -170"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "0 500 25"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-336 30 -360"
+}
+

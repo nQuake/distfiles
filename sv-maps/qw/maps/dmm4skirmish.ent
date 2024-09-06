@@ -1,0 +1,138 @@
+{
+"classname" "worldspawn"
+"wad" "IKBASETF.WAD"
+"message" "DMM4 Skirmish \nby Brunowa (Rocket Arena Conversion)\nOriginal map: ikarena1.bsp\n"
+}
+{
+"classname" "func_plat"
+"height" "144"
+"sounds" "1"
+"model" "*1"
+}
+{
+"classname" "light"
+"origin" "144 240 340"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "144 64 296"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "240 64 296"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "240 240 340"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-272 240 340"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-272 64 296"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-368 64 296"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-368 240 340"
+"light" "25"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-384 -196 248"
+"light" "130"
+"angle" "2"
+}
+{
+"classname" "light"
+"origin" "-48 64 -80"
+"light" "160"
+"style" "11"
+}
+{
+"classname" "light"
+"origin" "-128 -16 -80"
+"light" "160"
+"style" "11"
+}
+{
+"classname" "light"
+"origin" "-128 144 -80"
+"light" "160"
+"style" "11"
+}
+{
+"classname" "light"
+"origin" "-208 64 -80"
+"light" "160"
+"style" "11"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "250 340 25"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-510 -250 150"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -410 25"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-510 330 -5"
+"angle" "315"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "385 135 -120"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "432 432 32"
+"angle" "225"
+"targetname" "dummy"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-544 -432 160"
+"angle" "60"
+"targetname" "dummy"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "432 -448 -112"
+"angle" "135"
+"targetname" "dummy"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-552 432 -128"
+"angle" "0"
+"targetname" "dummy"
+}

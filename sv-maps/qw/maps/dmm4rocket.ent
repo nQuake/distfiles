@@ -1,0 +1,218 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Rocket Jump This \nby Brunowa (Rocket Arena Conversion)\nOriginal map: arenarg2.bsp\n"
+
+"worldtype" "0"
+"sounds" "4"
+"light" "50"
+"wad" "c:\program files\worldcraft\quake.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "315"
+"origin" "-384 288 96"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"style" "0"
+"origin" "-596 2 44"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"style" "0"
+"origin" "562 2 44"
+}
+{
+"classname" "light"
+"origin" "-480 0 -164"
+}
+{
+"classname" "light"
+"origin" "512 0 -164"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tele1"
+"origin" "-480 0 -160"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "tele2"
+"origin" "512 0 -160"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "0"
+"origin" "880 750 112"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "0"
+"origin" "880 -14 112"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "0"
+"origin" "700 850 112"
+}
+{
+"classname" "light_globe"
+"light" "250"
+"style" "0"
+"origin" "208 800 16"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "135"
+"origin" "430 -400 0"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "45"
+"origin" "-430 -400 0"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "0 400 -120"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-475 0 -160"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "515 0 -160"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "100"
+"style" "0"
+"origin" "0 488 -64"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "75"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"style" "32"
+"delay" "2"
+"model" "*1"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"style" "0"
+"origin" "0 96 -64"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "700"
+"style" "0"
+"origin" "0 512 320"
+}
+{
+"classname" "light_flame_large_yellow"
+"angle" "-2"
+"light" "250"
+"style" "0"
+"origin" "454 -466 44"
+}
+{
+"classname" "light_flame_large_yellow"
+"angle" "-2"
+"light" "250"
+"style" "0"
+"origin" "-468 -468 44"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "700"
+"style" "0"
+"origin" "416 -432 192"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "700"
+"style" "0"
+"origin" "-432 -416 192"
+}
+{
+"classname" "light_flame_large_yellow"
+"angle" "-2"
+"light" "250"
+"style" "0"
+"origin" "391 515 44"
+}
+{
+"classname" "light_flame_large_yellow"
+"angle" "-2"
+"light" "250"
+"style" "0"
+"origin" "-468 468 44"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"style" "0"
+"origin" "-448 448 192"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"style" "0"
+"origin" "352 480 192"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "0"
+"origin" "880 370 112"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"health" "1"
+"wait" "99999999999999"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"health" "1"
+"wait" "99999999999999"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"health" "1"
+"wait" "99999999999999"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"health" "1"
+"wait" "99999999999999"
+"model" "*5"
+}

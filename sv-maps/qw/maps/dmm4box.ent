@@ -1,0 +1,59 @@
+{
+"classname" "worldspawn"
+"light" "100"
+"message" "DMM4 Box Arena \nby Brunowa (Rocket Arena Conversion)\nOriginal map: mmra5.bsp\n"
+"wad" "TEXTURES.wad;c:\program files\worldcraft\textures\another.wad;c:\program files\worldcraft"
+}
+{
+"classname" "info_player_start"
+"origin" "224 -384 -272"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "224 -384 96"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-35 -165 -400"
+"angle" "315"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "30 -545 -345"
+"angle" "45"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "475 -600 -400"
+"angle" "135"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "370 -255 -280"
+"angle" "225"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "315"
+"targetname" "start"
+"origin" "-32 -160 -400"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "227"
+"targetname" "start"
+"origin" "480 -160 -400"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "135"
+"targetname" "start"
+"origin" "480 -608 -400"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "43"
+"targetname" "start"
+"origin" "-32 -608 -400"
+}

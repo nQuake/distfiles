@@ -1,0 +1,374 @@
+{
+"classname" "worldspawn"
+"worldtype" "1"
+"sounds" "2"
+"light" "0"
+"message" "DMM4 Blood Bath \nby Brunowa (Rocket Arena Conversion)\nOriginal map: bbarena2.bsp\n"
+"wad" "c:\quake\id1\metal.wad"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "96 -816 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "208 -928 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "176 -848 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "928 -816 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "848 -848 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "816 -928 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "848 -176 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "816 -96 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "928 -208 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "176 -176 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "96 -208 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "208 -96 64"
+}
+{
+"classname" "light"
+"origin" "416 -160 344"
+}
+{
+"classname" "light"
+"origin" "608 -160 344"
+}
+{
+"classname" "light"
+"origin" "736 -288 344"
+}
+{
+"classname" "light"
+"origin" "288 -288 344"
+}
+{
+"classname" "light"
+"origin" "608 -416 344"
+}
+{
+"classname" "light"
+"origin" "416 -416 344"
+}
+{
+"classname" "light"
+"origin" "736 -544 344"
+}
+{
+"classname" "light"
+"origin" "288 -544 344"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "512 -1088 288"
+}
+{
+"classname" "light"
+"origin" "864 -672 344"
+}
+{
+"classname" "light"
+"origin" "864 -416 344"
+}
+{
+"classname" "light"
+"origin" "160 -416 344"
+}
+{
+"classname" "light"
+"origin" "160 -672 344"
+}
+{
+"classname" "light"
+"origin" "512 -544 344"
+}
+{
+"classname" "light"
+"origin" "512 -288 344"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"style" "32"
+"origin" "512 -64 128"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "300"
+"style" "32"
+"targetname" "lights"
+"origin" "512 -800 216"
+}
+{
+"classname" "light"
+"target" "head"
+"light" "250"
+"style" "32"
+"targetname" "lights"
+"origin" "512 -64 184"
+}
+{
+"classname" "info_null"
+"targetname" "head"
+"origin" "512 0 184"
+}
+{
+"style" "32"
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"wait" "1"
+"health" "5"
+"delay" "0"
+"target" "lights"
+"sounds" "1"
+"lip" "4"
+"model" "*1"
+}
+{
+"classname" "info_null"
+"targetname" "button"
+"origin" "512 -1016 144"
+}
+{
+"classname" "light"
+"light" "250"
+"target" "button"
+"origin" "512 -896 144"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "250"
+"style" "32"
+"targetname" "lights"
+"origin" "1016 -512 128"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "250"
+"style" "32"
+"targetname" "lights"
+"origin" "8 -512 128"
+}
+{
+"classname" "light"
+"origin" "672 -1216 432"
+}
+{
+"classname" "light"
+"origin" "352 -1216 432"
+}
+{
+"classname" "light"
+"origin" "512 -1216 432"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "250"
+"style" "32"
+"targetname" "lights"
+"origin" "352 -992 216"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "250"
+"style" "32"
+"targetname" "lights"
+"origin" "672 -992 216"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "512 -800 376"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "672 -992 376"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "352 -992 376"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "512 -1432 304"
+}
+{
+"classname" "trigger_teleport"
+"target" "blood"
+"model" "*2"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "592 -1400 304"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "432 -1400 304"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "blood"
+"origin" "512 -64 128"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "510 -990 90"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "425 -415 90"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "515 -60 25"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "595 -415 90"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "416 -288 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "608 -288 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "288 -416 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "736 -416 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "416 -544 64"
+}
+{
+"style" "32"
+"classname" "light"
+"spawnflags" "1"
+"light" "200"
+"targetname" "lights"
+"origin" "608 -544 64"
+}

@@ -1,0 +1,110 @@
+{
+"wad" "quake102.wad"
+"classname" "worldspawn"
+"message" "DMM4 Hills \nby Brunowa (Rocket Arena Conversion)\nOriginal map: hill20.bsp\n"
+
+}
+{
+"origin" "48 -400 264"
+"classname" "info_player_start"
+}
+{
+"light" "450"
+"origin" "120 -184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "-120 -184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "120 184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "-120 184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "1016 -184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "776 -184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "1016 184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "776 184 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "456 -520 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "680 -712 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "216 -712 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "456 536 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "680 728 328"
+"classname" "light"
+}
+{
+"light" "450"
+"origin" "216 728 328"
+"classname" "light"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 230"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "890 0 230"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "445 -750 260"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "445 750 260"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-168 -568 168"
+"targetname" "t1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1032 -600 168"
+"targetname" "t2"
+}

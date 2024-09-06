@@ -1,0 +1,287 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Zaphods Arena \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: arenazap.bsp\n"
+
+"worldtype" "2"
+"sounds" "2"
+"light" "0"
+"wad" "textures.wad;c:\program files\worldcraft\pirate.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "40 832 296"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"origin" "0 -88 624"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "0 -460 50"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "0 320 50"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "400 -80 50"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-400 -80 50"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-8 760 384"
+}
+{
+"classname" "light"
+"light" "170"
+"style" "0"
+"wait" "0.7"
+"origin" "8 604 336"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*6"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-4 -928 384"
+}
+{
+"classname" "light"
+"light" "170"
+"style" "0"
+"wait" "0.7"
+"origin" "-4 -756 336"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "99999999999999"
+"health" "1"
+"style" "32"
+"delay" "2"
+"model" "*10"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "2"
+"dmg" "0"
+"health" "0"
+"target" "dropdoor"
+"delay" "0"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "dropdoor"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "2"
+"dmg" "2"
+"health" "0"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "dropdoor"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "2"
+"dmg" "0"
+"health" "0"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "dropdoor"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "2"
+"dmg" "0"
+"health" "0"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "dropdoor"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "2"
+"dmg" "0"
+"health" "0"
+"model" "*15"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "tele2"
+"origin" "0 336 24"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "tele3"
+"origin" "400 -80 24"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tele1"
+"origin" "-400 -80 24"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele4"
+"origin" "0 -464 24"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele6"
+"origin" "0 32 24"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tele7"
+"origin" "112 -80 24"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "tele8"
+"origin" "0 -192 24"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "tele5"
+"origin" "-112 -80 24"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"origin" "0 -384 128"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"origin" "-304 -80 128"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"origin" "304 -80 128"
+}
+{
+"classname" "light"
+"light" "100"
+"style" "0"
+"origin" "0 224 128"
+}

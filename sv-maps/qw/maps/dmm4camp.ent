@@ -1,0 +1,484 @@
+{
+"classname" "worldspawn"
+"light" "30"
+"message" "DMM4 Camp \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: tigra5.bsp\n"
+"sounds" "1"
+"wad" "c:\games\quake\wads\q2-4q.wad;c:\games\quake\wads\h2.wad;c:\games\quake\wads\winter.wad;c"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"wait" "0.2"
+"origin" "744 -24 248"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "112"
+"model" "*1"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "484 180 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "484 104 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "484 8 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "488 -68 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "488 292 -44"
+}
+{
+"classname" "light_fluorospark"
+"light" "200"
+"style" "10"
+"origin" "416 80 208"
+}
+{
+"classname" "light_fluoro"
+"light" "200"
+"style" "0"
+"wait" "0.5"
+"origin" "416 -16 208"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "0.2"
+"origin" "440 -136 252"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "168 348 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "84 348 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-12 348 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-96 348 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "240 348 -44"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-320 536 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-224 536 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-128 536 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-4 580 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "48 704 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "80 784 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "160 816 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "240 784 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "272 704 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "240 624 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "160 592 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "36 536 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "-16 416 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "44 412 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "80 496 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "164 532 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "280 584 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "332 700 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "296 824 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "312 920 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "456 920 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "472 832 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "480 732 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "574 642 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "720 596 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "744 472 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "608 392 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "496 428 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "432 520 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "416 444 -120"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "472 376 -120"
+}
+{
+"classname" "light"
+"light" "260"
+"style" "0"
+"wait" "0.2"
+"origin" "-80 1136 304"
+}
+{
+"classname" "trigger_multiple"
+"target" "plat01"
+"style" "32"
+"delay" "0"
+"wait" "5.5"
+"model" "*2"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "0.2"
+"origin" "440 856 248"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "0.2"
+"origin" "96 968 248"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"wait" "0.2"
+"origin" "-736 796 320"
+}
+{
+"classname" "func_button"
+"angle" "180"
+"speed" "100"
+"delay" "0"
+"message" "Aussie Aussie Aussie, Oi Oi Oi"
+"health" "0"
+"sounds" "0"
+"model" "*3"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "0.2"
+"origin" "598 562 248"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"wait" "0.2"
+"origin" "-272 1232 304"
+}
+{
+"classname" "info_intermission"
+"mangle" "30 315 0"
+"origin" "-736 1216 320"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"spawnflags" "1"
+"targetname" "plat01"
+"speed" "130"
+"sounds" "2"
+"lip" "16"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"spawnflags" "1"
+"targetname" "plat02"
+"speed" "190"
+"sounds" "2"
+"lip" "16"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "plat02"
+"style" "32"
+"delay" "0"
+"wait" "6.2"
+"model" "*6"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" "1.2"
+"origin" "384 920 -120"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"spawnflags" "1"
+"sounds" "2"
+"targetname" "main"
+"speed" "180"
+"wait" "2.2"
+"lip" "16"
+"dmg" "0"
+"health" "0"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "main"
+"style" "32"
+"delay" "0"
+"wait" "3.2"
+"model" "*8"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "-550 1235 150"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "45"
+"origin" "-685 660 90"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "135"
+"origin" "-60 700 60"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "-90 1000 40"
+}
+{
+"classname" "info_player_start"
+"angle" "45"
+"origin" "736 -64 64"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "tele1"
+"origin" "-352 832 160"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tele2"
+"origin" "-384 1008 160"
+}

@@ -1,0 +1,274 @@
+{
+"wad" "quake.wad;techm.wad;base.wad"
+"spawnflags" "0"
+"message" "DMM4 Base Arena \nby Brunowa (Rocket Arena Conversion)\nOriginal map: basarena.bsp by Cokeman\n"
+
+"worldtype" "2"
+"sounds" "0"
+"classname" "worldspawn"
+}
+{
+"origin" "-101.000000 103.000000 -740.000000"
+"classname" "light"
+}
+{
+"spawnflags" "0"
+"light" "200"
+"origin" "-103.000000 383.000000 -705.000000"
+"classname" "light"
+}
+{
+"origin" "-111.000000 -256.000000 -690.000000"
+"classname" "light"
+}
+{
+"origin" "-111.000000 -1030.000000 -690.000000"
+"classname" "light"
+}
+{
+"origin" "-113.000000 -638.000000 -531.000000"
+"classname" "light"
+}
+{
+"origin" "-84.000000 -648.000000 -971.000000"
+"classname" "light"
+}
+{
+"origin" "-106.000000 -1040.000000 -1029.000000"
+"classname" "light"
+}
+{
+"origin" "-100.000000 -264.000000 -1023.000000"
+"classname" "light"
+}
+{
+"origin" "-523.000000 -633.000000 -955.000000"
+"classname" "light"
+}
+{
+"origin" "289.000000 -649.000000 -955.000000"
+"classname" "light"
+}
+{
+"origin" "475.000000 -625.000000 -833.000000"
+"classname" "light"
+}
+{
+"origin" "475.000000 -1129.000000 -833.000000"
+"classname" "light"
+}
+{
+"origin" "473.000000 -89.000000 -833.000000"
+"classname" "light"
+}
+{
+"origin" "-701.000000 -629.000000 -837.000000"
+"classname" "light"
+}
+{
+"origin" "-705.000000 -109.000000 -837.000000"
+"classname" "light"
+}
+{
+"origin" "-701.000000 -1169.000000 -837.000000"
+"classname" "light"
+}
+{
+"origin" "-100.000000 -49.000000 -939.000000"
+"classname" "light"
+}
+{
+"origin" "-526.000000 -47.000000 -959.000000"
+"classname" "light"
+}
+{
+"origin" "286.000000 -43.000000 -955.000000"
+"classname" "light"
+}
+{
+"origin" "-526.000000 -329.000000 -963.000000"
+"classname" "light"
+}
+{
+"origin" "-525.000000 -1210.000000 -959.000000"
+"classname" "light"
+}
+{
+"origin" "-92.000000 -1217.000000 -954.000000"
+"classname" "light"
+}
+{
+"origin" "294.000000 -1203.000000 -958.000000"
+"classname" "light"
+}
+{
+"origin" "289.000000 -939.000000 -955.000000"
+"classname" "light"
+}
+{
+"origin" "285.000000 -357.000000 -955.000000"
+"classname" "light"
+}
+{
+"origin" "-92.000000 -626.000000 -693.000000"
+"classname" "light"
+}
+{
+"origin" "224.000000 -642.000000 -724.000000"
+"classname" "light"
+}
+{
+"origin" "-448.000000 -632.000000 -739.000000"
+"classname" "light"
+}
+{
+"origin" "-571.000000 -941.000000 -785.000000"
+"classname" "light"
+}
+{
+"origin" "-478.000000 -985.000000 -955.000000"
+"classname" "light"
+}
+{
+"model" "*1"
+"spawnflags" "0"
+"height" "173"
+"sounds" "1"
+"angle" "-1"
+"speed" "200"
+"classname" "func_plat"
+}
+{
+"model" "*2"
+"spawnflags" "0"
+"height" "173"
+"sounds" "1"
+"speed" "200"
+"classname" "func_plat"
+}
+{
+"origin" "76.000000 -255.000000 -693.000000"
+"classname" "light"
+}
+{
+"origin" "166.000000 -41.000000 -702.000000"
+"classname" "light"
+}
+{
+"origin" "-422.000000 -49.000000 -704.000000"
+"classname" "light"
+}
+{
+"origin" "-258.000000 -257.000000 -692.000000"
+"classname" "light"
+}
+{
+"origin" "-328.000000 -1221.000000 -720.000000"
+"classname" "light"
+}
+{
+"origin" "130.000000 -1221.000000 -726.000000"
+"classname" "light"
+}
+{
+"origin" "96.000000 -917.000000 -706.000000"
+"classname" "light"
+}
+{
+"origin" "-270.000000 -917.000000 -708.000000"
+"classname" "light"
+}
+{
+"origin" "-700 -30 -850"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "220 -380 -950"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "30 -1020 -950"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-445 -525 -900"
+"angle" "0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-445 -1150 -950"
+"angle" "45"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-168.000000 -1016.000000 -1038.000000"
+"spawnflags" "0"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "48.000000 -1002.000000 -921.000000"
+"classname" "info_teleport_destination"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "-458.000000 -510.000000 -894.000000"
+"classname" "info_teleport_destination"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "-367.000000 -1138.000000 -1017.000000"
+"classname" "info_teleport_destination"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "229.000000 -370.000000 -955.000000"
+"classname" "info_teleport_destination"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "491.000000 -882.000000 -854.000000"
+"classname" "info_teleport_destination"
+}
+{
+"spawnflags" "0"
+"targetname" "1"
+"origin" "-697.000000 -794.000000 -857.000000"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-101.000000 570.000000 -735.000000"
+"classname" "light"
+}
+{
+"origin" "-278.000000 631.000000 -701.000000"
+"spawnflags" "0"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-175.000000 629.000000 -702.000000"
+"spawnflags" "0"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-64.000000 629.000000 -702.000000"
+"spawnflags" "0"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "47.000000 633.000000 -703.000000"
+"spawnflags" "0"
+"light" "150"
+"classname" "light"
+}

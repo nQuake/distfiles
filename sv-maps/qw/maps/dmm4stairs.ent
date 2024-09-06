@@ -1,0 +1,302 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Stairs \nby Brunowa (Rocket Arena Conversion)\nOriginal map: marena4.bsp by Mungo\n"
+"worldtype" "1"
+"sounds" "5"
+"light" "0"
+"wad" "c:\program files\worldcraft\hipnotic.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "0 0 -224"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 0 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "192 0 -64"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 -256 -216"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "t1"
+"origin" "400 0 -120"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "224 -208 -288"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-224 -208 -288"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-224 208 -288"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "224 208 -288"
+}
+{
+"classname" "light"
+"origin" "448 -448 -312"
+}
+{
+"classname" "light"
+"origin" "408 -400 -232"
+}
+{
+"classname" "light"
+"origin" "-448 -448 -312"
+}
+{
+"classname" "light"
+"origin" "-408 -400 -232"
+}
+{
+"classname" "light"
+"origin" "424 0 -232"
+}
+{
+"classname" "light"
+"origin" "-424 0 -232"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "176 -88 -328"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "176 88 -328"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "t1"
+"model" "*1"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-176 -88 -328"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-176 88 -328"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "t2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "t2"
+"origin" "-400 0 -120"
+}
+{
+"classname" "light"
+"origin" "448 448 -312"
+}
+{
+"classname" "light"
+"origin" "408 400 -232"
+}
+{
+"classname" "light"
+"origin" "-448 448 -312"
+}
+{
+"classname" "light"
+"origin" "-408 400 -232"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-192 0 -64"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "t3"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "t4"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "t4"
+"origin" "-400 -176 -120"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "t3"
+"origin" "400 176 -120"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-96 -640 272"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "96 -640 272"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-400 0 -135"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "400 0 -135"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "0 385 -325"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "0 -385 -325"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "400 160 -16"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "400 -160 -16"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-400 160 -16"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-400 -160 -16"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 256 -216"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "96 -472 224"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-96 -472 224"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-368 0 -16"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "384 0 -16"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "112 -464 -128"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-112 -464 -128"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "112 464 -128"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-112 464 -128"
+}­

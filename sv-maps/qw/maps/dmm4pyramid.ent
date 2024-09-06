@@ -1,0 +1,109 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Pyramid \nby Brunowa (Rocket Arena Conversion)\nOriginal map: aqua_ra3.bsp\n"
+
+}
+{
+"classname" "info_player_start"
+"origin" "89 -48 75"
+}
+{
+"classname" "light"
+"light" "333"
+"style" "2"
+"origin" "-516 -20 184"
+}
+{
+"classname" "light"
+"light" "333"
+"style" "2"
+"origin" "736 -20 188"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "333"
+"origin" "544 -328 192"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "333"
+"origin" "532 260 196"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "333"
+"origin" "-346 -326 234"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "333"
+"origin" "-358 262 238"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "88 296 16"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "92 -360 16"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "550 -30 0"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "90 290 0"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-370 -20 0"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "90 -40 60"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "90 -360 0"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "-2"
+"targetname" "tele1"
+"origin" "88 -48 220"
+}
+{
+"classname" "light"
+"light" "333"
+"origin" "88 -44 68"
+}
+{
+"classname" "light"
+"origin" "428 -34 0"
+}
+{
+"classname" "light"
+"origin" "-228 -38 0"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "86 296 236"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "90 -360 236"
+}

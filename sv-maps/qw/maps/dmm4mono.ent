@@ -1,0 +1,187 @@
+{
+"wad" "c:\games\quake\wads\q2-4q.wad;c:\games\quake\wads\h2.wad;c:\games\quake\wads\winter.wad;c"
+"message" "DMM4 Monoliths \nby Brunowa (Rocket Arena Conversion)\nOriginal map name: tigarena.bsp\n"
+
+"sounds" "0"
+"light" "40"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"height" "136"
+"classname" "func_plat"
+}
+{
+"origin" "-304 -592 480"
+"style" "0"
+"light" "700"
+"classname" "light"
+}
+{
+"origin" "368 -1264 -80"
+"style" "0"
+"light" "600"
+"classname" "light"
+}
+{
+"origin" "-184 -184 488"
+"style" "0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "136 -1248 72"
+"style" "0"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "600 -1248 72"
+"style" "0"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "48 -1208 64"
+"style" "0"
+"light" "160"
+"classname" "light"
+}
+{
+"origin" "688 -1208 64"
+"style" "0"
+"light" "160"
+"classname" "light"
+}
+{
+"origin" "768 -1096 48"
+"style" "0"
+"light" "130"
+"classname" "light"
+}
+{
+"origin" "-32 -1096 40"
+"style" "0"
+"light" "130"
+"classname" "light"
+}
+{
+"origin" "-184 -184 152"
+"style" "0"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-552 -512 352"
+"targetname" "tele1"
+"angle" "90"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "400 -580 -12"
+"wait" "0.5"
+"style" "0"
+"light" "105"
+"classname" "light"
+}
+{
+"origin" "-20 -380 50"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-580 -380 180"
+"angle" "0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-210 20 120"
+"angle" "260"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-350 -770 120"
+"angle" "80"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-136 -8 152"
+"wait" "0.5"
+"style" "0"
+"light" "110"
+"classname" "light"
+}
+{
+"origin" "-376 -8 190"
+"wait" "0.5"
+"style" "0"
+"light" "110"
+"classname" "light"
+}
+{
+"model" "*2"
+"message" "Tigger-oN's arena - constructed by\ntigger@ebom.org\nwww.ebom.org/ray"
+"lip" "2"
+"delay" "0"
+"health" "0"
+"sounds" "2"
+"speed" "30"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"health" "0"
+"dmg" "0"
+"lip" "8"
+"wait" "3.5"
+"sounds" "0"
+"speed" "200"
+"targetname" "up"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"wait" "6"
+"delay" "0"
+"style" "32"
+"target" "up"
+"sounds" "0"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-184 -776 352"
+"targetname" "tele2"
+"angle" "180"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "368 -1296 80"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "0 -96 136"
+"style" "0"
+"light" "110"
+"classname" "light"
+}
+{
+"origin" "328 -448 -4"
+"target" "arrow"
+"style" "0"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "280 -448 -4"
+"targetname" "arrow"
+"classname" "info_null"
+}
+{
+"origin" "-528 -656 16"
+"mangle" "-25 45 0"
+"classname" "info_intermission"
+}

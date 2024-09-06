@@ -1,0 +1,425 @@
+{
+"classname" "worldspawn"
+"message" "DMM4 Soy Arena \nby Brunowa (Rocket Arena Conversion)\nOriginal map: soyarena.bsp by Soylent\n"
+"worldtype" "0"
+"sounds" "5"
+"light" "0"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele1"
+"model" "*1"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "272"
+"targetname" "tele2"
+"origin" "-216 564 -216"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele1"
+"origin" "216 -560 -216"
+}
+{
+"classname" "info_player_start"
+"targetname" "tele3"
+"origin" "64 -768 160"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "arena4"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "arena1"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "arena2"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "arena3"
+"model" "*6"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "arena3"
+"origin" "96 -568 -208"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "arena4"
+"origin" "-224 -320 -208"
+}
+{
+"classname" "trigger_multiple"
+"speed" "100"
+"dmg" "0"
+"health" "1"
+"style" "32"
+"sounds" "0"
+"delay" "9999999999"
+"wait" "10"
+"targetname" "glass2"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"speed" "100"
+"dmg" "0"
+"health" "1"
+"style" "32"
+"sounds" "0"
+"delay" "9999999999"
+"wait" "10"
+"targetname" "glass1"
+"model" "*8"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "440 -160 -176"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "256 -344 -172"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "200 -480 -176"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "304 -520 -176"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "64 -320 -168"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-64 320 -208"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-448 168 -180"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-336 288 -176"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-216 408 -196"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-328 520 -180"
+}
+{
+"classname" "light"
+"light" "240"
+"style" "0"
+"origin" "-8 756 200"
+}
+{
+"classname" "light"
+"light" "235"
+"style" "0"
+"origin" "0 -770 204"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "-224 -746 188"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "240 -753 188"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "12 -933 180"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "4 936 188"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "-208 752 184"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "216 756 188"
+}
+{
+"classname" "light"
+"light" "640"
+"style" "0"
+"origin" "-4 16 220"
+}
+{
+"classname" "light"
+"light" "550"
+"style" "0"
+"origin" "-312 -299 196"
+}
+{
+"classname" "light"
+"light" "550"
+"style" "0"
+"origin" "392 362 176"
+}
+{
+"classname" "light"
+"light" "550"
+"style" "0"
+"origin" "-332 264 180"
+}
+{
+"classname" "light"
+"light" "550"
+"style" "0"
+"origin" "368 -280 172"
+}
+{
+"classname" "light"
+"origin" "-213 -326 -165"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-352 -352 -144"
+}
+{
+"classname" "light"
+"origin" "102 -567 -167"
+}
+{
+"classname" "light"
+"origin" "-173 -553 -167"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "-320 -224 -147"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "304 224 -131"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "352 352 -144"
+}
+{
+"classname" "light"
+"origin" "191 331 -138"
+}
+{
+"classname" "light"
+"origin" "197 556 -151"
+}
+{
+"classname" "light"
+"origin" "-73 552 -133"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-432 -320 -170"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "480 320 -168"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "360 -250 -152"
+}
+{
+"classname" "light"
+"light" "135"
+"style" "0"
+"origin" "304 16 -128"
+}
+{
+"classname" "light"
+"light" "135"
+"style" "0"
+"origin" "-304 -16 -160"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "224 656 192"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-224 640 192"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "224 -640 176"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-240 -640 176"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-135 -135 -230"
+"angle" "45"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "155 155 -230"
+"angle" "225"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "200 -500 -70"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-195 535 -70"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "arena2"
+"origin" "224 320 -208"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "272"
+"targetname" "arena1"
+"origin" "-96 568 -208"
+}
+{
+"classname" "trigger_once"
+"target" "glass1"
+"style" "32"
+"delay" "2"
+"model" "*9"
+}
+{
+"classname" "trigger_once"
+"target" "glass2"
+"style" "32"
+"delay" "2"
+"model" "*10"
+}
+{
+"classname" "trigger_once"
+"target" "glass1"
+"style" "32"
+"delay" "2"
+"model" "*11"
+}
+{
+"classname" "trigger_once"
+"target" "glass2"
+"style" "32"
+"delay" "2"
+"model" "*12"
+}
