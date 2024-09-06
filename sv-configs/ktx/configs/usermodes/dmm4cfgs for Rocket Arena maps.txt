@@ -1,0 +1,14 @@
+-------
+SERVER HOSTS
+-------
+*Place the .cfg files in quakeserverfolder/ktx/configs/usermodes
+
+*Recommended .cfg settings are:
+timelimit 3
+deathmatch 4
+set k_overtime 2
+
+
+*Upon map load, your server will automatically execute the respective .cfg of the map and load DMM4 settings. This is important so that upon each map load players do not have to keep changing server settings to DMM4. If these cfgs are not used, the server will default to your regular server settings (most likely DMM3 and Timelimit 10) after each game. 
+
+- Brunowa
