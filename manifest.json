@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-09-20T15:41:54.917Z",
- "commit": "1a563f0bb8fa5f71b0f0171b21f558412308e8b9",
+ "generated": "2026-09-20T17:10:27.430Z",
+ "commit": "64771c8c67de28843f215dc22d177e27f1f06943",
  "packages": {
   "addon-clanarena": {
    "bytes": 14053038,
