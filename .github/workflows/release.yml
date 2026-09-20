@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - master
+    # The manifest commit this workflow pushes must not retrigger it.
+    paths-ignore:
+      - manifest.json
 
 name: Create release
 
@@ -11,7 +14,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+      # manifest.json lists every distribution file with its size and sha256.
+      # The nQuake web installer (nQuake/nquake-reborn) reads it and fetches
+      # the files one by one from raw.githubusercontent.com, because release
+      # assets can't be fetched from a browser (no CORS headers). Regenerate
+      # and commit it whenever the files change.
+      - name: Update manifest.json
+        run: |
+          node scripts/build-manifest.mjs
+          if ! git diff --quiet -- manifest.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add manifest.json
+            git commit -m "chore: update manifest.json"
+            git push
+          fi
       - name: Create archives
         run: |
           find . -maxdepth 1 -type d ! -iname ".*" -print0|xargs -0 -I% -P$(nproc) bash -c 'cd % && zip -q -9 -r ../%.zip * && echo "% complete."'
