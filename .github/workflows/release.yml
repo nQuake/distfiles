@@ -2,9 +2,13 @@ on:
   push:
     branches:
       - master
-    # The manifest commit this workflow pushes must not retrigger it.
+    # The manifest commit this workflow pushes must not retrigger it, and a
+    # docs-only change has no business re-creating the snapshot release.
     paths-ignore:
       - manifest.json
+      - README.md
+      - AGENTS.md
+      - CLAUDE.md
 
 name: Create release
 
