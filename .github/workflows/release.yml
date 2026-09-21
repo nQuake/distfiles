@@ -19,6 +19,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      # Nothing gets zipped or released out of a tree that would not install:
+      # this repo has no build step, so a file that a browser cannot create,
+      # or one over raw's 100 MB limit, is invisible until it reaches a
+      # player. See scripts/check-contract.mjs and AGENTS.md.
+      - name: Check the install contract
+        run: node scripts/check-contract.mjs
       # manifest.json lists every distribution file with its size and sha256.
       # The nQuake web installer (nQuake/nquake-reborn) reads it and fetches
       # the files one by one from raw.githubusercontent.com, because release

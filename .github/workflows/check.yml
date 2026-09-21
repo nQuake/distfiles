@@ -1,0 +1,24 @@
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - master
+
+name: Check install contract
+
+# This repo has no build step, so a file that cannot be installed looks
+# exactly like one that can until a player hits it. `check-contract.mjs`
+# enforces what AGENTS.md states in prose — the 100 MB raw limit, the paths
+# the web installer names, and the names a browser is not allowed to create.
+#
+# `master` is covered by the release workflow, which runs the same check
+# before it zips anything.
+jobs:
+  contract:
+    name: Check install contract
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Check the install contract
+        run: node scripts/check-contract.mjs
