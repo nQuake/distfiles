@@ -51,7 +51,7 @@ and "Server" say which install type pulls the package.
 | --- | ---: | ---: | --- | :-: | :-: |
 | `qsw106` | 16 | 19.7 MB | The Quake 1.06 **shareware** DOS release. Only `ID1/PAK0.PAK` is used (renamed to `id1/pak0.pak`); the rest is DOS junk. Redistributable. | ✓ | ✓ |
 | `gpl` | 27 | 29.5 MB | GPL-licensed client bits: `id1/gpl_maps.pk3` (stand-ins for the registered maps) + `id1/readme.txt`, `ezquake/ezquake.pk3` and `ezquake/configs/` (the blank first-run `config.cfg`, sample configs), `ezquake.exe` (the **bundled Windows client**, older than upstream), `qw/skins/player_*.png`, `LICENSE`. | ✓ | |
-| `non-gpl` | 496 | 110 MB | The heart of the client package: `qw/nquake.pk3`, `qw/models.pk3` (replacement models), `qw/scoreboard_flags.pk3`, `qw/autoexec.cfg` + `qw/nquake_default.cfg` (the nQuake config, see below), sounds, skins, map `.txt` info files, `readme.txt` (the nQuake FAQ), `ezquake/sb/wget.exe` (Windows-only). | ✓ | |
+| `non-gpl` | 496 | 110 MB | The heart of the client package: `qw/nquake.pk3`, `qw/models.pk3` (replacement models), `qw/scoreboard_flags.pk3`, `qw/autoexec.cfg` + `qw/nquake_default.cfg` (the nQuake config, see below), sounds, skins, map `.txt` info files, `readme.txt` (the nQuake FAQ). | ✓ | |
 | `textures` | 1 | 21.4 MB | `qw/textures.pk3` — the standard 24-bit world textures. | ✓ (default on) | |
 | `addon-textures` | 6 | 404 MB | Quake Retexturing Project hi-res packs (`qw/qrp_*.pk3`). **Contains the largest files in the repo (99 MB).** | opt | |
 | `addon-fortress` | 15 | 23.4 MB | Team Fortress client files (`fortress/`). | opt | |
@@ -79,7 +79,7 @@ publish them.
 - **Paths are a contract.** The web installer's plan
   (`nquake-reborn/src/domain/plan.ts`) names packages and some paths
   explicitly: `qsw106/ID1/PAK0.PAK`, `gpl/ezquake.exe`, `gpl/id1/gpl_maps.pk3`,
-  `gpl/id1/readme.txt`, `non-gpl/ezquake/sb/wget.exe`, `sv-gpl/ktx/port_template.cfg`,
+  `gpl/id1/readme.txt`, `sv-gpl/ktx/port_template.cfg`,
   `sv-gpl/qtv/qtv_template.cfg`, `sv-gpl/addons/*`, the `sv-bin-*` binaries,
   and the `linux`/`macosx` platform files. Renaming or moving any of these, or
   a package directory, needs a matching change there in the same breath. New
@@ -91,6 +91,37 @@ publish them.
   larger files, and the web installer has no other source. The current
   ceiling is `addon-textures/qw/qrp_maps_textures_1.pk3` at 99 MB. Split a
   bigger pk3 rather than exceeding it.
+- **A browser is not allowed to create every name.** Chromium's File System
+  Access API refuses `.lnk`, `.scf` and `.url` on every OS, and — only when
+  the browser runs on **Windows** — every extension Safe Browsing marks
+  dangerous there: `cfg`, `dll`, `ini`, `manifest`. That is most of what this
+  repo ships to the client, so the web installer packs client `.cfg` files
+  into `id1/configs.pk3` (and a `configs.pk3` per mod dir) and ezQuake reads
+  them out of the pack. Three consequences for anything you add here:
+  - A **client** config must live under `id1/`, `ezquake/`, `qw/` or a mod
+    dir the installer knows (`fortress/`, `prox/`, `arena/`, `cace/`).
+    Anywhere else and it cannot be packed, so a Windows web install goes back
+    to making the player run a repair script by hand. A new client game dir
+    needs a line in `MOD_GAMEDIRS` in `nquake-reborn/src/domain/paths.ts`.
+  - Two client configs must not **strip to the same name**: the game dir is
+    removed when a file goes into the pack, so `qw/configs/x.cfg` and
+    `ezquake/configs/x.cfg` would both become `configs/x.cfg`. A zip can hold
+    both and stay valid, but minizip reads the first and other readers the
+    last, so which one a player gets would be luck.
+  - A **client** `.dll`, `.ini`, `.manifest` or shortcut cannot be installed
+    from a browser at all. Server-side files are exempt: a server is started
+    from a script, which repairs whatever the browser could not name.
+- **`scripts/check-contract.mjs` enforces all of the above**, and runs in CI
+  on every pull request and before the release workflow zips anything. Run it
+  yourself after adding or moving files:
+
+  ```sh
+  node scripts/check-contract.mjs
+  ```
+
+  It prints the fix for each problem. Nothing here has a build step, so a
+  file that cannot be installed looks exactly like one that can until it
+  reaches a player — this check is what makes the difference.
 - **No zips, no archives inside packages.** The browser writes files
   directly; anything archived would just sit there. (The `linux` tarball is
   a legacy leftover the installer skips.)
@@ -109,7 +140,18 @@ publish them.
   `nquake_default.cfg` and `configs/preset.cfg` (the installer writes
   `preset.cfg` with the user's name, mouse and keys). `cfg_save_onquit` then
   saves the merged result to `config.cfg` and the defaults are never loaded
-  again. Don't put per-user values anywhere but `preset.cfg`.
+  again. Don't put per-user values anywhere but `preset.cfg` — with one
+  deliberate exception, worth knowing before you "fix" it. `cl_fakename` is
+  set to `"pla"` here, and that is not a leftover: ezQuake rewrites every
+  `say_team` as `<cl_fakename><suffix><message>` (`cl_cmd.c`, `CL_Say_f`), so
+  a short fakename is how a team message spends its width on the message
+  rather than on a nick. `"pla"` is the abbreviation of ezQuake's default
+  `name "player"`. What it cannot do is follow a player who renames
+  themselves — no name cvar feeds it — so team chat reads `PLA: …` until
+  something overwrites it, and the installer, which is the only part of
+  nQuake that knows the player's name, writes it into `preset.cfg`. The
+  default stays for everyone who never runs the installer, with a comment in
+  the file saying what it does.
 - **Licensing split is deliberate.** `gpl`/`sv-gpl`/`sv-maps-gpl` hold only
   GPL-compatible content; `non-gpl`/`sv-non-gpl` hold community assets with
   other terms; `qsw106` is the id shareware licence. Put new files in the
