@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-09-20T17:10:27.430Z",
- "commit": "64771c8c67de28843f215dc22d177e27f1f06943",
+ "generated": "2026-09-21T13:16:37.056Z",
+ "commit": "cb5085cfc4ad8aaab1411de030c17517302693be",
  "packages": {
   "addon-clanarena": {
    "bytes": 14053038,
@@ -339,7 +339,7 @@
    ]
   },
   "non-gpl": {
-   "bytes": 110035290,
+   "bytes": 110035516,
    "files": [
     {
      "path": "qw/autoexec.cfg",
@@ -1693,8 +1693,8 @@
     },
     {
      "path": "qw/nquake_default.cfg",
-     "size": 80565,
-     "sha256": "6b00240868b22ec675d6876210e818eb6a044c51409ebac482820cc10f5c8e9c"
+     "size": 80791,
+     "sha256": "5cfd7b6f93175d08ac04fc6d8971d59bace4eeeb760f7adc36d719026cf284a1"
     },
     {
      "path": "qw/readme.txt",
