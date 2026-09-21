@@ -140,12 +140,18 @@ publish them.
   `nquake_default.cfg` and `configs/preset.cfg` (the installer writes
   `preset.cfg` with the user's name, mouse and keys). `cfg_save_onquit` then
   saves the merged result to `config.cfg` and the defaults are never loaded
-  again. Don't put per-user values anywhere but `preset.cfg`. That includes
-  anything that stands in for the player's name: `cl_fakename` used to be
-  `"pla"` here, which made every nQuake player's team chat read `PLA: …`
-  whatever they called themselves, because ezQuake rewrites `say_team` as
-  `<cl_fakename><suffix><message>` and no name cvar feeds it. It is empty
-  now, which is ezQuake's own default.
+  again. Don't put per-user values anywhere but `preset.cfg` — with one
+  deliberate exception, worth knowing before you "fix" it. `cl_fakename` is
+  set to `"pla"` here, and that is not a leftover: ezQuake rewrites every
+  `say_team` as `<cl_fakename><suffix><message>` (`cl_cmd.c`, `CL_Say_f`), so
+  a short fakename is how a team message spends its width on the message
+  rather than on a nick. `"pla"` is the abbreviation of ezQuake's default
+  `name "player"`. What it cannot do is follow a player who renames
+  themselves — no name cvar feeds it — so team chat reads `PLA: …` until
+  something overwrites it, and the installer, which is the only part of
+  nQuake that knows the player's name, writes it into `preset.cfg`. The
+  default stays for everyone who never runs the installer, with a comment in
+  the file saying what it does.
 - **Licensing split is deliberate.** `gpl`/`sv-gpl`/`sv-maps-gpl` hold only
   GPL-compatible content; `non-gpl`/`sv-non-gpl` hold community assets with
   other terms; `qsw106` is the id shareware licence. Put new files in the
